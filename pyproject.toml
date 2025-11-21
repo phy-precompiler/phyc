@@ -1,0 +1,35 @@
+[project]
+name = "phyc"
+version = "0.1.0"
+description = "Meta package of `phy` project."
+authors = [
+    {name = "Alfred DU",email = "ihearmywords@hotmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.10, <4"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+]
+dependencies = [
+]
+
+[project.optional-dependencies]
+all=[]
+
+[project.urls]
+Homepage = "https://github.com/phy-precompiler/phyc"
+Repository = "https://github.com/phy-precompiler/phyc"
+Issues = "https://github.com/phy-precompiler/phyc/issues"
+
+
+[tool.poetry]
+packages = [{include = "phyc", from = "src"}]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

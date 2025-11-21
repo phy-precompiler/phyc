@@ -1,0 +1,10 @@
+*.pyc
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+
+.venv/
+dist/
+site/
+.tox/
+.python-version
