@@ -5,6 +5,7 @@ description = "Meta package of `phy` project."
 authors = [
     {name = "Alfred DU",email = "ihearmywords@hotmail.com"}
 ]
+license = { text = "MIT" }
 readme = "README.md"
 requires-python = ">=3.10, <4"
 classifiers = [
